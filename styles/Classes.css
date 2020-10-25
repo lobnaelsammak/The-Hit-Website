@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+@media (max-width: 992px) {
+
+  ul{margin-left: 2vw !important; 
+
+    font-size:3vw !important;    }      }
+    .navbar-toggler-icon { width: 7vw;       }
+
+    .nav-item{margin-right: 1vw;
+
+
+    }
+
+    @media (min-width: 992px) {
+
+
+      .active {
+        border-bottom: 3px solid #8F1924;
+      }
+    }
+
+    #class-card:hover{
+
+     box-shadow: -10px 20px 40px 0px rgba(0, 0, 0, 0.75);
+     transform: translate(0px, -20px);
+     transform:scale(1.1,1.1);
+
+
+   }
+
+   /*---Media Queries --*/
+
+   @media (max-width: 768px) {
+    .nav-item{font-size:17pt; }
+  }
+
+
+
+
+
+  [class*="col-"] {
+    padding: 1rem;
+  }
+  .red {
+    color: #8F1924;
+  }
+
+
+  .navbar-brand img{
+    width: 300px;
+  }  
+
+
+
+
+  .card
+  {background-color:#232323;
+
+    color: #808080;
+  }
+  .card-title{
+
+
+
+    color: white;
+
+  }
+
+
+
+a:hover{
+    color: initial; 
+        text-decoration: none;
+
+    /* Takes initial value of the property which is black in this case */
+}
+a:hover{
+       text-decoration: none;
+    color: inherit; /* Inherits color property from its parent */
+}
+
+
+
+
+#topheader .navbar-nav li.active > a {
+  
+  color: #fff;
+}
+
+
+

@@ -1,0 +1,131 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+
+    background-color:#373537;
+ 
+  background-position:  center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.img {
+	background-image:url("background2.jpg");
+	height:100%;
+	
+	background-position: left center ;
+  background-repeat: no-repeat;
+  background-size: 750px;
+  
+}
+.codyhouse {
+  text-align: center;
+  margin: 40px 0;
+}
+
+td{
+    background-color:#222222;
+    color:#717171;
+    text-align: center;
+    
+    
+}
+th{
+    background-color:#8F1924;
+    color:#FFFFFF;
+    text-align:center !important;
+    font-size: 15pt;
+      box-shadow: 00px -20px -60px 0px rgba(0, 0, 0, 0.75);
+}
+table, th, td , thead,tr{
+    border: 1px solid #717171;
+    
+
+}
+table {
+    margin-top:50px;  margin-bottom:50px; margin-left:100px;  width :1500px;
+     box-shadow: 0px 20px 60px 0px rgba(0, 0, 0, 0.75);
+}
+@media
+only screen and (max-width: 1500px),
+ {
+    table{
+        margin-left:10px;
+        
+        
+    }
+}
+@media
+only screen and (max-width: 770px),
+ {
+    .horizontal-scroll{
+       display: none;
+        
+        
+    }
+}
+@media only screen and (min-width: 770px),
+ {
+   #mobile{
+       display: none;
+        
+        
+    }
+}
+#time{
+
+
+
+color:white;
+
+}
+#class-name{
+margin-bottom:0px;
+
+color:white;
+
+}
+#coaches{ color:#8F1924; }
+
+.horizontal-scroll {
+    overflow: hidden;
+    overflow-x: scroll;
+    clear: both;
+    width: 100%;
+    
+}
+ th, td { white-space: nowrap; }
+
+    
+
+
+#footerhours {margin-left:100px;  color:white;}
+
+@media only screen and (max-width: 576px) {
+    #footerhours {
+        margin-left:10px;
+    }
+}
+td:hover{
+
+ box-shadow: -10px 20px 40px 0px rgba(0, 0, 0, 0.75);
+transform: translate(0px, -20px);
+transform:scale(1.1,1.1);
+
+
+}
+#class-card:hover{
+
+ box-shadow: -10px 20px 40px 0px rgba(0, 0, 0, 0.75);
+transform: translate(0px, -20px);
+transform:scale(1.1,1.1);
+
+
+}
+.card
+{background-color:#232323;
+    
+    color: #808080;
+}

@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.co/css?family=Poppins:400,500,700');
+
+@media (min-width: 420px) and (max-width: 992px) 
+{
+
+ input{width:0vw;     margin-left:10vw;  }
+  label{margin-left: 10vw;}
+#submit{margin-left: 60vw;}
+#form-title{margin-left: 10vw;};
+
+
+
+
+}
+
+
+@media(max-width: 420px)
+
+{
+
+ input{width:0vw;     margin-left:0vw;  }
+  label{margin-left: 2vw;}
+#submit{margin-left: 60vw;}
+#form-title{margin-left: 0vw;};
+
+
+
+  
+}
+
+
+@media  (max-width: 992px){
+ 
+ul{margin-left: 2vw !important; 
+
+font-size:3vw !important;    }      }
+/*.navbar-toggler { width: 3vw;       }*/
+.navbar-toggler-icon { width: 7vw;       }
+
+.nav-item{margin-right: 1vw;
+
+
+}
+
+@media (min-width: 992px) {
+
+
+.active {
+  border-bottom: 3px solid #8F1924;
+}
+}
+  
+
+#submit:hover{
+
+ box-shadow: -10px 20px 40px 0px rgba(0, 0, 0, 0.75);
+transform: translate(0px, -20px);
+transform:scale(1.1,1.1);
+
+
+}
+
+@media (max-width: 768px) {
+    .nav-item{font-size:17pt; }
+}
+
+
+
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+.navbar-brand img{
+    width: 300px;
+  }  
+
+
+@media screen and (max-width: 751px) {
+div#form {
+  background-image: url('blank.jpg');!important;
+background-image:none; !important;
+
+  }
+
+
+
+}
+@media screen and (min-width:600px) {
+  #form2{width:0px;}
+}
+
+
+a:hover{
+    color: initial; 
+        text-decoration: none;
+
+    /* Takes initial value of the property which is black in this case */
+}
+a:hover{
+       text-decoration: none;
+    color: inherit; /* Inherits color property from its parent */
+}
+
+
+
+#topheader .navbar-nav li.active > a {
+  
+  color: #fff;
+}
+
+.input-error{box-shadow: 0 0 15px 15px #8F1924;}
+
+
+
+
+
+
+
